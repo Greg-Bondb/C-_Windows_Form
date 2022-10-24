@@ -7,7 +7,7 @@ namespace DoddleJumps
         bool goLeft, goRight;
         bool jump;
         bool dropBall;
-        int gravity = 15;
+        int gravity = 17;
         int force;
         int score;
         int compteur = 0;
@@ -128,7 +128,7 @@ namespace DoddleJumps
                 {
                     if (doodle.Bounds.IntersectsWith(x.Bounds) && doodle.Bottom - 20 <= x.Top)
                     {
-                        force = 15;
+                        force = 17;
                         doodle.Top = x.Top - doodle.Height;
                         if (compteur == 0 && x.Name != "pictureBox0")
                         {
