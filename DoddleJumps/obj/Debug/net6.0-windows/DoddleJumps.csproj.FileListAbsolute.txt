@@ -1,0 +1,38 @@
+D:\dossiers git\C#\Projet Purple\DoddleJumps\bin\Debug\net6.0-windows\DoddleJumps.exe
+D:\dossiers git\C#\Projet Purple\DoddleJumps\bin\Debug\net6.0-windows\DoddleJumps.deps.json
+D:\dossiers git\C#\Projet Purple\DoddleJumps\bin\Debug\net6.0-windows\DoddleJumps.runtimeconfig.json
+D:\dossiers git\C#\Projet Purple\DoddleJumps\bin\Debug\net6.0-windows\DoddleJumps.dll
+D:\dossiers git\C#\Projet Purple\DoddleJumps\bin\Debug\net6.0-windows\DoddleJumps.pdb
+D:\dossiers git\C#\Projet Purple\DoddleJumps\obj\Debug\net6.0-windows\DoddleJumps.csproj.AssemblyReference.cache
+D:\dossiers git\C#\Projet Purple\DoddleJumps\obj\Debug\net6.0-windows\DoddleJumps.csproj.GenerateResource.cache
+D:\dossiers git\C#\Projet Purple\DoddleJumps\obj\Debug\net6.0-windows\DoddleJumps.GeneratedMSBuildEditorConfig.editorconfig
+D:\dossiers git\C#\Projet Purple\DoddleJumps\obj\Debug\net6.0-windows\DoddleJumps.AssemblyInfoInputs.cache
+D:\dossiers git\C#\Projet Purple\DoddleJumps\obj\Debug\net6.0-windows\DoddleJumps.AssemblyInfo.cs
+D:\dossiers git\C#\Projet Purple\DoddleJumps\obj\Debug\net6.0-windows\DoddleJumps.csproj.CoreCompileInputs.cache
+D:\dossiers git\C#\Projet Purple\DoddleJumps\obj\Debug\net6.0-windows\DoddleJumps.dll
+D:\dossiers git\C#\Projet Purple\DoddleJumps\obj\Debug\net6.0-windows\refint\DoddleJumps.dll
+D:\dossiers git\C#\Projet Purple\DoddleJumps\obj\Debug\net6.0-windows\DoddleJumps.pdb
+D:\dossiers git\C#\Projet Purple\DoddleJumps\obj\Debug\net6.0-windows\DoddleJumps.genruntimeconfig.cache
+D:\dossiers git\C#\Projet Purple\DoddleJumps\obj\Debug\net6.0-windows\ref\DoddleJumps.dll
+D:\dossiers git\C#\Projet Purple\DoddleJumps\obj\Debug\net6.0-windows\DoddleJumps.Properties.Resources.resources
+D:\dossiers git\C#\Projet Purple\DoddleJumps - Test 2\obj\Debug\net6.0-windows\DoddleJumps.csproj.AssemblyReference.cache
+D:\dossiers git\C#\Projet Purple\DoddleJumps - Test 2\obj\Debug\net6.0-windows\DoddleJumps.Properties.Resources.resources
+D:\dossiers git\C#\Projet Purple\DoddleJumps - Test 2\obj\Debug\net6.0-windows\DoddleJumps.csproj.GenerateResource.cache
+D:\dossiers git\C#\Projet Purple\DoddleJumps - Test 2\obj\Debug\net6.0-windows\DoddleJumps.GeneratedMSBuildEditorConfig.editorconfig
+D:\dossiers git\C#\Projet Purple\DoddleJumps - Test 2\obj\Debug\net6.0-windows\DoddleJumps.AssemblyInfoInputs.cache
+D:\dossiers git\C#\Projet Purple\DoddleJumps - Test 2\obj\Debug\net6.0-windows\DoddleJumps.AssemblyInfo.cs
+D:\dossiers git\C#\Projet Purple\DoddleJumps - Test 2\obj\Debug\net6.0-windows\DoddleJumps.csproj.CoreCompileInputs.cache
+D:\dossiers git\C#\Projet Purple\DoddleJumps - Test 2\obj\Debug\net6.0-windows\DoddleJumps.dll
+D:\dossiers git\C#\Projet Purple\DoddleJumps - Test 2\obj\Debug\net6.0-windows\refint\DoddleJumps.dll
+D:\dossiers git\C#\Projet Purple\DoddleJumps - Test 2\obj\Debug\net6.0-windows\DoddleJumps.pdb
+D:\dossiers git\C#\Projet Purple\DoddleJumps - Test 2\bin\Debug\net6.0-windows\DoddleJumps.exe
+D:\dossiers git\C#\Projet Purple\DoddleJumps - Test 2\bin\Debug\net6.0-windows\DoddleJumps.deps.json
+D:\dossiers git\C#\Projet Purple\DoddleJumps - Test 2\bin\Debug\net6.0-windows\DoddleJumps.runtimeconfig.json
+D:\dossiers git\C#\Projet Purple\DoddleJumps - Test 2\bin\Debug\net6.0-windows\DoddleJumps.dll
+D:\dossiers git\C#\Projet Purple\DoddleJumps - Test 2\bin\Debug\net6.0-windows\DoddleJumps.pdb
+D:\dossiers git\C#\Projet Purple\DoddleJumps - Test 2\obj\Debug\net6.0-windows\DoddleJumps.genruntimeconfig.cache
+D:\dossiers git\C#\Projet Purple\DoddleJumps - Test 2\obj\Debug\net6.0-windows\ref\DoddleJumps.dll
+D:\dossiers git\C#\Projet Purple\DoddleJumps - Test 2\obj\Debug\net6.0-windows\DoddleJumps.GameZone.resources
+D:\dossiers git\C#\Projet Purple\DoddleJumps - Test 2\bin\Debug\net6.0-windows\DoddleJumps.dll.config
+D:\dossiers git\C#\Projet Purple\DoddleJumps\bin\Debug\net6.0-windows\DoddleJumps.dll.config
+D:\dossiers git\C#\Projet Purple\DoddleJumps\obj\Debug\net6.0-windows\DoddleJumps.GameZone.resources
