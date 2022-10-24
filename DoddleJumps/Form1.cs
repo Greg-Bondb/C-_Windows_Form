@@ -111,18 +111,8 @@ namespace DoddleJumps
                 }
             }
 
-            // doodle intersect with deathbar
-            if (doodle.Bounds.IntersectsWith(DeathBar.Bounds))
-            {
-                timer.Stop();
-                Game_menu.Show();
-                score = 0;
-                jump = false;
-                compteur = 0;
-            }
-
-            // doodle intersect with enemy
-            if (doodle.Bounds.IntersectsWith(enemy.Bounds))
+            // doodle intersect with deathbar or enemy
+            if (doodle.Bounds.IntersectsWith(DeathBar.Bounds) || doodle.Bounds.IntersectsWith(enemy.Bounds))
             {
                 timer.Stop();
                 Game_menu.Show();
