@@ -16,3 +16,4 @@ D:\dossiers git\C#\Projet Purple\JetPack-Joyride\obj\Debug\net6.0-windows\JetPac
 D:\dossiers git\C#\Projet Purple\JetPack-Joyride\obj\Debug\net6.0-windows\JetPack-Joyride.genruntimeconfig.cache
 D:\dossiers git\C#\Projet Purple\JetPack-Joyride\obj\Debug\net6.0-windows\ref\JetPack-Joyride.dll
 D:\dossiers git\C#\Projet Purple\JetPack-Joyride\obj\Debug\net6.0-windows\JetPack_Joyride.GameZone.resources
+D:\dossiers git\C#\Projet Purple\JetPack-Joyride\bin\Debug\net6.0-windows\JetPack-Joyride.dll.config
