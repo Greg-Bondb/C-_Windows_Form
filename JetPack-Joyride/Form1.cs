@@ -14,6 +14,7 @@ namespace JetPack_Joyride
         int force;
         int randomzapper;
         Random rand = new Random();
+        System.Windows.Forms.PictureBox zappername;
 
         public GameZone()
         {
@@ -44,19 +45,14 @@ namespace JetPack_Joyride
                 jump = false;
             }
 
-            /*foreach (Control x in this.Controls)
-            {
-                if ((string)x.Tag == "zapper")
-                {
-                    x.Left -= 3;
-                }
-            }*/
-
             // zapper show or zapper intersect with caracter
             foreach (Control x in this.Controls)
             {
                 if ((string)x.Tag == "zapper")
                 {
+                    // zapper left scroll
+                    x.Location = new Point(x.Location.X - 4, x.Location.Y);
+
                     // game over
                     if (caracter.Bounds.IntersectsWith(x.Bounds))
                     {
@@ -66,17 +62,31 @@ namespace JetPack_Joyride
                     // redefinde zapper compared the gameArea
                     if (x.Right < gameArea.Left)
                     {
-                        x.Location = new Point(x.Location.X + 100, x.Location.Y);
 
                         // take a random enemy skin
-                        /*randomzapper = rand.Next(0, 3);
+                        randomzapper = rand.Next(0, 3);
+                        if (x.Name == "zapper1")
+                        {
+                            zappername = zapper1;
+                        }
+                        else if (x.Name == "zapper2")
+                        {
+                            zappername = zapper2;
+                        }
+                        else
+                        {
+                            zappername = zapper3;
+                        }
+
                         switch (randomzapper)
                         {
-                            case 0: pictureBox1.Image = Properties.Resources.L2; break;
-                            case 1: pictureBox1.Image = Properties.Resources.L9; break;
-                            case 2: pictureBox1.Image = Properties.Resources.L11; break;
-                            case 3: pictureBox1.Image = Properties.Resources.L12; break;
-                        }*/
+                            case 0: zappername.Image = Properties.Resources.L2; zappername.Size = new Size (130, 125); break;
+                            case 1: zappername.Image = Properties.Resources.L9; zappername.Size = new Size(150, 55); break;
+                            case 2: zappername.Image = Properties.Resources.L11; zappername.Size = new Size(130, 125); break;
+                            case 3: zappername.Image = Properties.Resources.L12; zappername.Size = new Size(50, 140); break;
+                        }
+
+                        x.Location = new Point(gameArea.Right, rand.Next(gameArea.Top, (gameArea.Bottom - x.Height - ground.Height)));
                     }
                 }
             }
