@@ -33,9 +33,13 @@
             this.ground = new System.Windows.Forms.PictureBox();
             this.caracter = new System.Windows.Forms.PictureBox();
             this.timer = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.gameArea)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ground)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.caracter)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // gameArea
@@ -59,7 +63,7 @@
             // 
             // caracter
             // 
-            this.caracter.BackColor = System.Drawing.Color.Transparent;
+            this.caracter.BackColor = System.Drawing.SystemColors.Control;
             this.caracter.Image = global::JetPack_Joyride.Properties.Resources.caracter;
             this.caracter.Location = new System.Drawing.Point(97, 366);
             this.caracter.Name = "caracter";
@@ -74,6 +78,30 @@
             this.timer.Interval = 1;
             this.timer.Tick += new System.EventHandler(this.mainTimer);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.pictureBox1.Image = global::JetPack_Joyride.Properties.Resources.L12;
+            this.pictureBox1.Location = new System.Drawing.Point(588, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(200, 120);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Tag = "zapper";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.SystemColors.Control;
+            this.pictureBox2.Image = global::JetPack_Joyride.Properties.Resources.L12;
+            this.pictureBox2.Location = new System.Drawing.Point(588, 309);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(200, 120);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Tag = "zapper";
+            // 
             // GameZone
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -81,6 +109,8 @@
             this.BackgroundImage = global::JetPack_Joyride.Properties.Resources.de4pasy_9dc3d7ad_2e4c_4930_9968_4bf756402c1d;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.caracter);
             this.Controls.Add(this.ground);
             this.Controls.Add(this.gameArea);
@@ -91,6 +121,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.gameArea)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ground)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.caracter)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -101,5 +133,7 @@
         private PictureBox ground;
         private PictureBox caracter;
         private System.Windows.Forms.Timer timer;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
     }
 }
